@@ -9,8 +9,8 @@ main:
   - name: SOLUCIONES
     url: /#solutions
     weight: 20
-  - name: PUBLICACIONES
-    url: /#publications
+  - name: QUIENES SOMOS
+    url: /#whoweare
     weight: 30
   - name: CONTACTO
     url: /#contact
