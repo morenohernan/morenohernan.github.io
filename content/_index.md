@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      title: Transforma tu Negocio con la IA
+      text:  Nosotros lo hacemos posible. 
+      # primary_action:
+      #   text: "info\\@sistecma.io"
+      #   url: https://hugoblox.com/templates/
+      #   icon: user
+      # secondary_action:
+      #   text: "Schedule an appoinment "
+      #   url: https://docs.hugoblox.com
+      # announcement:
+      #   text: "Announcing the release of version 1."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -34,7 +34,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: neural-network.svg
           filters:
             brightness: 0.5
           size: cover
@@ -43,18 +43,15 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "+20%"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Ahorro en costos operativos
+        - statistic: "+15%"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Incremento en ventas por automatización
+        - statistic: "+30%"
           description: |
-            Discord community  
-            for support
+            Velocidad de respuesta al mercado
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -62,84 +59,92 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: features
+    id: solutions
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Inteligencia Estratégica #Soluciones
+      text: Transforma tu operación con procesos inteligentes, y decisiones más rápidas. Haz de cada proceso una ventaja competitiva #"Simples, prácticas y a tu alcance"
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+        - name: Automatiza
+          icon: arrow-path
+          description: Lo que consume tiempo y gana foco en lo que genera valor.
+                       Procesos más claros. 
+                       Tiempos más cortos. 
+                       Menos errores.
+        - name: Integra
+          icon: link
+          description: "Tu negocio a la IA: cada interacción, cada dato y cada proceso se convierte en inteligencia accionable y convierte tus procesos en motores de crecimiento. Tus sistemas no solo ejecutan tareas, sino que anticipan necesidades, aceleran decisiones y te dan ventaja frente a tu competencia"
+        - name: Escala
+          icon: arrows-pointing-out
+          description: Tu conocimiento, amplificado con IA. 
+                       Atención al cliente que responde sola.
+                       Operaciones que no olvidan.
+                       Ventas que no se detienen.
+                       Equipos que aprenden más rápido  
+        # - name: No-Code
+        #   icon: code-bracket
+        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+        # - name: Highly Rated
+        #   icon: star
+        #   description: Rated 5-stars by the community.
+        # - name: Swappable Blocks
+        #   icon: rectangle-group
+        #   description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
     id: solutions
     content:
       items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
+        - title: Tu negocio evoluciona, tu visión también.
+          text: "Hoy las empresas que crecen no solo se digitalizan: automatizan, integran, aprenden y escalan. Lo que antes tomaba semanas, ahora se resuelve en horas. Lo que parecía complejo, ahora fluye."
           feature_icon: check
           features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
+            - "Automatiza lo repetitivo."
+            - "Integra tus sistemas y procesos con inteligencia."
+            - "Escala y explota el conocimiento, con datos que generan valor real."
+            - "Evolucionar con IA no es solo mejorar procesos: es abrir la puerta a nuevas formas de crecer, competir y liderar."
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: business-evolution.png
           button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
+            text: Estoy interesado
+            url: /#contact
+        - title: "Así transformamos tu empresa"
+          text:  Conoce nuestro enfoque
           feature_icon: bolt
           features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
+            - "La Ejecución Durable (DEx) actúa como la capa invisible que conecta la IA con los procesos de negocio. A diferencia de las automatizaciones tradicionales, que suelen ser frágiles y difíciles de mantener, este enfoque permite que cualquier flujo de trabajo se ejecute de manera confiable sin importar si dura segundos, días, meses, o años, e incluso si hay fallos, interrupciones o reinicios en el sistema."
+            - "El Modelo de Contexto (MCP) funciona como un traductor universal que permite que la IA entienda y utilice la información de tu empresa de la misma manera que lo haría un equipo humano. Conecta datos dispersos, documentos y sistemas en un solo lenguaje, lo que facilita que las respuestas y acciones sean siempre relevantes, precisas y alineadas con tu negocio."
+            - "El enfoque Multi-Agente transforma a la IA en un equipo de especialistas digitales que colaboran entre sí. Se despliegan agentes con roles claros y capacidades complementarias: uno busca información, otro razona escenarios, otro valida resultados y otro comunica con claridad. Este modelo multiplica la precisión y la eficiencia."
+            - "La Generación Aumentada por Recuperación (RAG) permite que la IA responda con contexto real y familiar a tu negocio. En lugar de limitarse a generar texto, se conecta con tus propias bases de conocimiento, documentos o sistemas, y trae información precisa para enriquecer cada respuesta."
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+          image: value-proposition.png
+          # button:
+          #   text: Join Discord
+          #   url: https://discord.gg/z8wNYzb
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "dark:bg-gray-900"
   - block: testimonials
     content:
       title: ""
       text: ""
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
+        - name: "Amelia Moreno"
+          role: "Product Director at Mignonette Inc."
           # Upload image to `assets/media/` and reference the filename here
           image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          text: "¡Genial, Sistecma nos ayudó a incrementar nuestras ventas rápidamente. A los 3 meses de transformar nuestros sistemas a entidades inteligentes ya teníamos resultados tangibles!"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
+
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      title: Tu negocio, más ágil. Tus equipos, más efectivos. Tus clientes, más cerca.
+      text: Productividad, Velocidad y Valor real.
     design:
+      # Primero configurar el card:
       card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+        css_class: "text-white custom-font-size"
+        css_style: "background: linear-gradient(rgba(18, 24, 40, 0.3), rgba(18, 24, 40, 0.3)), url('/media/neural-network.svg') !important; background-size: cover !important; background-position: center !important; border-radius: 20px !important; padding: 80px 40px !important; background-color: transparent !important;"
 ---

@@ -1,0 +1,28 @@
+/* static/css/footer-contact.css */
+.footer-contact { margin-bottom: 2rem !important; }
+.footer-contact h4 { 
+  color: white !important; 
+  font-size: 1.2rem !important; 
+  font-weight: bold !important; 
+  margin-bottom: 1.5rem !important; 
+  border-bottom: 2px solid #fff !important; 
+  padding-bottom: 0.5rem !important; 
+}
+.contact-item { 
+  display: flex !important; 
+  align-items: center !important; 
+  margin-bottom: 1rem !important; 
+}
+.contact-item i { 
+  color: #fff !important; 
+  width: 20px !important; 
+  margin-right: 12px !important; 
+  font-size: 1.1rem !important; 
+}
+.contact-item span,
+.contact-item a { 
+  color: rgba(255, 255, 255, 0.9) !important; 
+  font-size: 1rem !important; 
+  text-decoration: none !important; 
+}
+.contact-item a:hover { color: #fff !important; }

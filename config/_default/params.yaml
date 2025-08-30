@@ -3,18 +3,22 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+
+custom_css: "css/custom.css"
+
 # Appearance
 appearance:
   mode: light
   color: indigo
+
 
 # SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
+    org_name: 'SISTECMA'
+    description: 'Sistecma simplifies access, integration, and scalability of AI in your business'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -30,24 +34,24 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    blox: "navbar" # navbar
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "SISTECMA"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: "sistecma.svg"
     button:
-      enable: true
+      enable: false
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: true  
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Sistecma'  
 
 # Localization
 locale:
