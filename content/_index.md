@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Transforma tu Negocio con la IA
-      text:  Nosotros lo hacemos posible. 
+      text:  Sistecma — Backbone of Artificial Entities 
       # primary_action:
       #   text: "info\\@sistecma.io"
       #   url: https://hugoblox.com/templates/
