@@ -48,7 +48,7 @@ header:
     fixed_to_top: true
     logo:
       text: "SISTECMA"
-      subtitle: "The Backbone of Artificial Entities"
+      subtitle: "The Backbone of AI"
       # Logo filename in `assets/media/` folder
       filename: "sistecma.svg"
     button:
