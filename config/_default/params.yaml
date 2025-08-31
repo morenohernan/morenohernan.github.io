@@ -8,7 +8,7 @@ custom_css: "css/custom.css"
 
 # Appearance
 appearance:
-  mode: light
+  mode: system #light
   color: indigo
 
 
@@ -33,12 +33,22 @@ marketing:
 # Site header
 header:
   navbar:
+    profiles:
+      - icon: brands/twitter
+        url: "https://twitter.com/sistecmaio"
+      - icon: brands/linkedin
+        url: "https://linkedin.com/in/sistecmaio"
+      - icon: brands/github
+        url: "https://github.com/sistecmaio"
+      # - icon: instagram
+      #   url: "https://instagram.com/tuusuario"    
     enable: true
     blox: "navbar" # navbar
     align: "center"
     fixed_to_top: true
     logo:
       text: "SISTECMA"
+      subtitle: "The Backbone of Artificial Entities"
       # Logo filename in `assets/media/` folder
       filename: "sistecma.svg"
     button:

@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Transforma tu Negocio con la IA
-      text:  Sistecma — Backbone of Artificial Entities 
+      text:  "La mejor manera de predecir el futuro es crearlo -- Peter Drucker"
       # primary_action:
       #   text: "info\\@sistecma.io"
       #   url: https://hugoblox.com/templates/
