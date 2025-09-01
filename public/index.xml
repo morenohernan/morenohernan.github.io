@@ -13,24 +13,6 @@
     </image>
     
     <item>
-      <title>Privacy</title>
-      <link>http://localhost:1313/privacy/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
-      <description>&lt;p&gt;Add your company privacy policy here&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms of Service</title>
-      <link>http://localhost:1313/terms/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/terms/</guid>
-      <description>&lt;p&gt;Add your company legal terms here&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
       <link>http://localhost:1313/blog/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
@@ -243,7 +225,7 @@
 
 
 
-&lt;div id=&#34;chart-467923581&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-354921768&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -261,7 +243,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-467923581&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-354921768&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -632,6 +614,109 @@ Parallel 4   :         des6, after des4, 1d
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;!-- Contenedor principal: columna izquierda (logo) + derecha (form) --&gt;
+&lt;div style=&#34;
+  display:grid;
+  grid-template-columns: minmax(280px,360px) minmax(640px,1fr);
+  gap: 2.5rem;
+  align-items: start;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+&#34;&gt;
+  &lt;!-- Columna izquierda: LOGO alineado a la izquierda + texto debajo --&gt;
+  &lt;div style=&#34;align-self:start; display:flex; flex-direction:column; justify-content:flex-start; width:100%;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/media/sistecma.svg&#34; alt=&#34;Sistecma&#34; style=&#34;width:220px; max-width:100%; margin-bottom:1rem;&#34;&gt;
+    &lt;p style=&#34;font-size:0.95rem; line-height:1.5; color:#374151;&#34;&gt;
+      Consulta por nuestros servicios y obtén ofertas y beneficios para individuales y grupales.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;!-- Columna derecha: FORM ocupa todo el ancho disponible --&gt;
+  &lt;div style=&#34;width:100%; max-width:820px;&#34;&gt;
+    &lt;form action=&#34;https://formsubmit.co/info@sistecma.io&#34; method=&#34;POST&#34; style=&#34;margin-bottom: 1rem;&#34;&gt;
+  &lt;div style=&#34;margin-bottom: 1rem;&#34;&gt;
+        &lt;label for=&#34;name&#34; style=&#34;display:block; margin-bottom:0.25rem; font-weight:600;&#34;&gt;Nombre&lt;/label&gt;
+        &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required
+               oninvalid=&#34;this.setCustomValidity(&#39;Por favor, ingresa tu nombre&#39;)&#34;
+               oninput=&#34;this.setCustomValidity(&#39;&#39;)&#34;
+               style=&#34;width:100%; padding:0.5rem; border:1px solid #d1d5db; border-radius:0.5rem;&#34;&gt;
+      &lt;/div&gt;
+   &lt;div style=&#34;margin-bottom: 1rem;&#34;&gt;
+        &lt;label for=&#34;email&#34; style=&#34;display:block; margin-bottom:0.25rem; font-weight:600;&#34;&gt;Email&lt;/label&gt;
+        &lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;_replyto&#34; required
+               pattern=&#34;[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$&#34;
+               title=&#34;Por favor ingresa un email válido (ejemplo: usuario@dominio.com)&#34;
+               style=&#34;width:100%; padding:0.5rem; border:1px solid #d1d5db; border-radius:0.5rem;&#34;&gt;
+      &lt;/div&gt;
+   &lt;div style=&#34;margin-bottom: 1rem;&#34;&gt;
+        &lt;label for=&#34;phone&#34; style=&#34;display:block; margin-bottom:0.25rem; font-weight:600;&#34;&gt;Teléfono&lt;/label&gt;
+        &lt;input type=&#34;tel&#34; id=&#34;phone&#34; name=&#34;phone&#34;
+               style=&#34;width:100%; padding:0.5rem; border:1px solid #d1d5db; border-radius:0.5rem;&#34;&gt;
+      &lt;/div&gt;
+   &lt;div style=&#34;margin-bottom: 1rem;&#34;&gt;
+        &lt;label for=&#34;message&#34; style=&#34;display:block; margin-bottom:0.25rem; font-weight:600;&#34;&gt;Mensaje&lt;/label&gt;
+        &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; required maxlength=&#34;200&#34;
+                  oninvalid=&#34;this.setCustomValidity(&#39;Por favor, deja un mensaje&#39;)&#34;
+                  oninput=&#34;updateCharCount(this)&#34;
+                  style=&#34;width:100%; padding:0.5rem; border:1px solid #d1d5db; border-radius:0.5rem;&#34;&gt;&lt;/textarea&gt;
+        &lt;div id=&#34;charCount&#34; style=&#34;text-align:right; font-size:12px; color:#666; margin-top:5px;&#34;&gt;0/200&lt;/div&gt;
+      &lt;/div&gt;
+   &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;https://sistecma.io/thanks&#34;&gt;
+      &lt;input type=&#34;hidden&#34; name=&#34;_subject&#34; value=&#34;Nuevo mensaje de contacto&#34;&gt;
+&lt;p&gt;&lt;button
+style=&#34;padding:0.75rem 1rem; border-radius:0.5rem; font-weight:600;
+background-color:#2563eb; color:white; border:none; cursor:pointer; width:100%;&#34;&gt;
+Enviar
+&lt;/button&gt;
+&lt;/form&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Bloque descriptivo a ancho completo --&gt;
+&lt;div style=&#34;max-width: 1280px; margin: 2rem auto; text-align:left; font-size:1.125rem; line-height:1.75; padding:0 1rem;&#34;&gt;
+  &lt;p style=&#34;margin:0;&#34;&gt;
+    &lt;strong&gt;¿Quiénes somos?&lt;/strong&gt; &lt;br/&gt;¡En &lt;span style=&#34;color:#2563eb; font-weight:600;&#34;&gt;Sistecma&lt;/span&gt;, nos dedicamos a convertir tu negocio en un &lt;em&gt;&#34;AI Powered Business&#34;&lt;/em&gt;. 
+    Nuestro equipo de expertos te ayudará a &lt;strong&gt;automatizar&lt;/strong&gt; / &lt;strong&gt;integrar&lt;/strong&gt; / &lt;strong&gt;escalar&lt;/strong&gt; con la IA para generar mucho más valor. 
+    Creemos que la explotación de sus capacidades es un vector para impulsar el crecimiento y la eficiencia. 
+    ¡Únete a nosotros en este emocionante viaje a la transformación empresarial e individual con entidades artificiales! 
+    &lt;span style=&#34;display:block; margin-top:0.75rem;&#34;&gt;👉 Contáctanos hoy mismo.&lt;/span&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;style&gt;
+/* Tablet: dos columnas, más equilibradas */
+@media (max-width: 1024px) {
+  div[style*=&#34;grid-template-columns&#34;] {
+    grid-template-columns: minmax(240px,320px) minmax(480px,1fr) !important;
+    gap: 2rem !important;
+  }
+}
+
+/* Móvil: logo arriba, form abajo */
+@media (max-width: 768px) {
+  div[style*=&#34;grid-template-columns&#34;] {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+  /* en móvil, el logo y texto se centran */
+  div[style*=&#34;justify-content:flex-start&#34;] { justify-content:center !important; text-align:center !important; }
+}
+&lt;/style&gt;
+&lt;script&gt;
+function updateCharCount(textarea) {
+  const charCount = document.getElementById(&#39;charCount&#39;);
+  const n = textarea.value.length;
+  charCount.textContent = `${n}/200`;
+  charCount.style.color = (n &gt; 180) ? &#39;#dc2626&#39; : &#39;#666&#39;;
+  textarea.setCustomValidity(&#39;&#39;);
+}
+&lt;/script&gt;
 </description>
     </item>
     

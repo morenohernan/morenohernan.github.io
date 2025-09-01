@@ -4,10 +4,6 @@
   
   
   <url>
-    <loc>http://localhost:1313/privacy/</loc><lastmod>2023-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/terms/</loc><lastmod>2023-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>http://localhost:1313/blog/get-started/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tag/academic/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -35,5 +31,7 @@
     <loc>http://localhost:1313/tag/hugo-blox-builder/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/blog/project-management/</loc><lastmod>2023-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/contact/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/categories/</loc><changefreq>weekly</changefreq></url></urlset>

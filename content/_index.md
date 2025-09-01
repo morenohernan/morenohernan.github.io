@@ -146,5 +146,5 @@ sections:
       # Primero configurar el card:
       card:
         css_class: "text-white custom-font-size"
-        css_style: "background: linear-gradient(rgba(18, 24, 40, 0.3), rgba(18, 24, 40, 0.3)), url('/media/neural-network.svg') !important; background-size: cover !important; background-position: center !important; border-radius: 20px !important; padding: 80px 40px !important; background-color: transparent !important;"
+        css_style: "background: linear-gradient(rgba(18, 24, 40, 0.3), rgba(18, 24, 40, 0.3)), url('/media/neural-network.svg') !important; background-size: cover !important; background-position: center !important; border-radius: 20px !important; padding: 80px 40px !important; background-color: transparent !important;"       
 ---
