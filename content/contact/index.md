@@ -73,7 +73,7 @@ share: false
 <!-- Bloque descriptivo a ancho completo -->
 <div style="max-width: 1280px; margin: 2rem auto; text-align:left; font-size:1.125rem; line-height:1.75; padding:0 1rem;">
   <p style="margin:0;">
-    <strong>¿Quiénes somos?</strong> <br/>¡En <span style="color:#2563eb; font-weight:600;">Sistecma</span>, nos dedicamos a convertir tu negocio en un <em>"AI Powered Business"</em>. 
+    <strong>¿Quiénes somos?</strong> <br/>¡En <span style="color:#ff0404; font-weight:600;">Sistecma</span>, nos dedicamos a convertir tu negocio en un <em>"AI Powered Business"</em>. 
     Nuestro equipo de expertos te ayudará a <strong>automatizar</strong> / <strong>integrar</strong> / <strong>escalar</strong> con la IA para generar mucho más valor. 
     Creemos que la explotación de sus capacidades es un vector para impulsar el crecimiento y la eficiencia. 
     ¡Únete a nosotros en este emocionante viaje a la transformación empresarial e individual con entidades artificiales! 
